@@ -1,8 +1,19 @@
-voices/*.*
-models/*.*
-outputs/*.*
-finetune/*.*
-config.json
-confignew.json
-models.json
-diagnostics.log
+# Environnement Python
+.venv/
+__pycache__/
+
+# Données de fine-tune / samples
+finetune/put-voice-samples-in-here/
+outputs/
+
+# Modèles lourds (si tu les as ici)
+models/
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# Logs & cache
+*.log
+logs/
+cache/
