@@ -17,3 +17,6 @@ models/
 *.log
 logs/
 cache/
+# Fine-tune temp
+finetune/tmp-trn/
+finetune.py.bak
